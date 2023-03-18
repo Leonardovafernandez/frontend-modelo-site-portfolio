@@ -1,0 +1,103 @@
+hr {
+    width: 1110px;
+    height: 0px;
+}
+
+main .hero {
+    height: 354px;
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+    justify-content: space-between;
+}
+
+main .hero .hero-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .hero hr {
+    opacity: 15%;
+}
+
+main .hero .hero-row .hero-text {
+    width: 635px;
+}
+
+main .hero .hero-row .hero-text span {
+    line-height: 30px;
+    opacity: 80%;
+}
+
+main .hero .hero-row .hero-text .social ul {
+    display: flex;
+    list-style: none;
+    margin-top: 54px;
+}
+
+main .hero .hero-row .hero-text .social ul li {
+    margin-right: 16px;
+}
+
+main .message-box {
+    margin-top: 47px;
+
+}
+
+main .message-box .message-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .message-box .message-row .message-input .message-name {
+    display: flex;
+    flex-direction: column;
+}
+
+main .message-box .message-row .message-input .message-email {
+    display: flex;
+    flex-direction: column;
+}
+
+main .message-box .message-row .message-input .message-description {
+    display: flex;
+    flex-direction: column;
+}
+
+main .message-box .message-row .message-input span {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+main .message-box .message-row .message-input input {
+    width: 635px;
+    height: 48px;
+    background-color: rgb(234, 234, 235);
+    border: none;
+    margin-bottom: 24px;
+}
+
+main .message-box .message-row .message-input input:hover {
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+
+main .message-box .message-row .message-input .message-description input {
+    height: 96px;
+}
+
+main .message-box .message-row .message-input button {
+    height: 48px;
+    width: 200px;
+    background-color: rgba(32, 58, 76, 1);
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+
+main .message-box .message-row .message-input button:hover {
+    background-color: rgba(95, 180, 162, 1);
+}

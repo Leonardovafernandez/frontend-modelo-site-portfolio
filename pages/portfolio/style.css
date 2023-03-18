@@ -1,0 +1,99 @@
+main .port {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 1015px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .first {
+    margin-top: 94px;
+}
+
+main .port .photo img {
+    height: 500px;
+    width: 540px;
+}
+
+main .port .description {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .port .description hr {
+    opacity: 15%;
+}
+
+main .port .description .description-center {
+    height: 292px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .port .description .tittle-desc h2 {
+    font-size: 40px;
+}
+
+main .port .description .text-desc span {
+    line-height: 30px;
+}
+
+main .port .description .button-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(51, 50, 61, 1);
+    font-size: 12px;
+    width: 175px;
+    height: 48px;
+    border: 1px solid rgba(51, 50, 61, 1);
+}
+
+main .port .description .button-portfolio:hover {
+    background-color: rgba(51, 50, 61, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+main .port .description .description-center a {
+    text-decoration: none;
+}
+
+main .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    width: 1015px;
+    margin-top: 150px;
+}
+
+main .contacts .contact-tittle {
+    width: 367px;
+}
+
+main .contacts .contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 168px;
+    border: 1px solid rgba(51, 50, 61, 1);
+    color: rgba(51, 50, 61, 1);
+    font-size: 12px;
+}
+
+main .contacts .contact-button:hover {
+    background-color: rgba(51, 50, 61, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+main .contacts a {
+    text-decoration: none;
+}

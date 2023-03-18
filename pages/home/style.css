@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main .principal {
+    height: 600px;
+    width: 1110px;
+    margin-top: 54px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+main .principal h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 56px;
+    margin-left: 27px;
+    margin-bottom: 101px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+main .principal .box {
+    background-color: rgb(250, 250, 250);
+    height: 357px;
+    width: 445px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+main .principal .box .box-button {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+main .principal .box .box-button:hover svg g {
+    stroke: #FFFFFF;
+}
+
+main .principal .box .box-button a {
+    background-color: rgba(32, 58, 76, 1);
+    text-decoration: none;
+}
+
+main .principal .box .box-button a:hover {
+    background-color: rgba(95, 180, 162, 1);
+}
+
+main .principal .box .box-button span {
+    color: white;
+
+}
+
+main .principal .box .box-button .icon {
+    height: 48px;
+    width: 48px;
+    background-color: rgba(0, 0, 0, 0.100);
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main .principal .box .box-button .text {
+    height: 48px;
+    width: 152px;
+    margin-left: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .about {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    width: 1110px;
+    margin-top: 149px;
+}
+
+main .about .photo img {
+    height: 600px;
+    width: 540px;
+}
+
+main .about .sobre-mim {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .about .sobre-mim hr {
+    opacity: 15%;
+}
+
+main .about .sobre-mim .tittle-sobre h2 {
+    font-size: 40px;
+}
+
+main .about .sobre-mim .text-sobre span {
+    line-height: 30px;
+}
+
+main .about .sobre-mim .button-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 204px;
+    height: 48px;
+    border: 1px solid rgba(51, 50, 61, 1);
+    color: rgba(51, 50, 61, 1);
+    font-size: 12px;
+}
+
+main .about .sobre-mim .button-portfolio:hover {
+    background-color: rgba(51, 50, 61, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+main .about .sobre-mim a {
+    text-decoration: none;
+}
+
+
+main .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    width: 1110px;
+    margin-top: 151px;
+}
+
+main .contacts .contact-tittle {
+    width: 367px;
+}
+
+main .contacts .contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 168px;
+    border: 1px solid rgba(51, 50, 61, 1);
+    color: rgba(51, 50, 61, 1);
+    font-size: 12px;
+}
+
+main .contacts .contact-button:hover {
+    background-color: rgba(51, 50, 61, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+main .contacts a {
+    text-decoration: none;
+}
